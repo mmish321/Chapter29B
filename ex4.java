@@ -1,12 +1,12 @@
 import java.util.*;
 
-class Decoder {
+class Decode {
 
 	public static void main (String args[]) {
 		Scanner scanner = new Scanner(System.in);
 
 		String keyphrase = scanner.nextLine();
-		String encoded = scanner.nextLine();
+		String encoded = scanner.nextLine().trim();
 		String decoded = "";
 		String[] encodedArray = encoded.split(" ");
 
